@@ -43,16 +43,28 @@ O programa:
 
 ---
 
-## 📂 Estrutura do projeto
-
-```bash
-steam-backup-tool/
+### 📂 Estrutura do projeto
+Steam-Tools_Backup/
 │
-├── backup_steam.py   # Código principal
-├── Run.bat           # Execução rápida
-├── README.md         # Documentação
-└── requirements.txt  # Dependências
+├── steambackup.exe   # Executável (uso direto)
+├── project.py        # Código principal
+├── run.bat           # Executar via Python
+├── requirements.txt  # Dependências
+└── README.md         # Documentação
 ```
+
+---
+
+## ✔ Pré-requisitos
+
+### ⚙️ Instalação
+
+### 1. Instalar Python 🐍
+
+Baixe aqui:
+👉 https://www.python.org
+
+✔ Marque: **Add Python to PATH**
 
 ---
 
@@ -73,17 +85,6 @@ Run.bat
 ```bash
 python backup_steam.py
 ```
-
----
-
-## ⚙️ Instalação
-
-### 1. Instalar Python 🐍
-
-Baixe aqui:
-👉 https://www.python.org
-
-✔ Marque: **Add Python to PATH**
 
 ---
 
