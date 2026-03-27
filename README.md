@@ -44,6 +44,7 @@ O programa:
 ---
 
 ### 📂 Estrutura do projeto
+```
 Steam-Tools_Backup/
 │
 ├── steambackup.exe   # Executável (uso direto)
