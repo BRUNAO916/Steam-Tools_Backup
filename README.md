@@ -6,7 +6,7 @@ Uma ferramenta simples, rápida e eficiente para fazer **backup e restauração 
 
 ## 📌 Sobre o projeto
 
-O **SteamVault** foi criado para facilitar o backup e a recuperação de dados importantes da Steam, como saves, configurações e estatísticas.
+O **Steam-Tools_Backup** foi criado para facilitar o backup e a recuperação de dados importantes da Steam, como saves, configurações e estatísticas.
 
 ✔ Ideal para:
 
@@ -50,7 +50,7 @@ O programa:
 ### 📥 Importar (Restaurar)
 
 1. Selecione a pasta do backup extraído:
-   SteamVault_Backup_XXXX-XX-XX_XX-XX-XX
+Steam-Tools_Backup_XXXX-XX-XX_XX-XX-XX
 
 ✔ O programa automaticamente:
 
@@ -62,7 +62,7 @@ O programa:
 
 ## 📂 Estrutura do projeto
 ```
-SteamVault/
+Steam-Tools_Backup/
 │
 ├── steambackup.exe   # Executável (uso direto)
 ├── project.py        # Código principal
@@ -130,7 +130,7 @@ D:\Program Files (x86)\Steam
 
 Com o nome:
 ```
-SteamVault_Backup_DATA.rar
+Steam-Tools_Backup_DATA.rar
 ```
 
 ---
