@@ -48,13 +48,10 @@ Selecione a pasta do backup (ou extraída do .zip)
 📂 Estrutura do projeto
 Steam-Tools_Backup/
 │
-├── code/
-│   ├── project.py
-│   ├── requirements.txt
-│   ├── run.bat
-│   └── site.url
-│
-├── project.exe
+├── project.py
+├── requirements.txt
+├── run.bat
+├── site.url
 └── README.md
 ```
 ---
@@ -77,15 +74,6 @@ iwr -useb "https://luatools.vercel.app/install-plugin.ps1" | iex
 ```
 ---
 ## ▶️ Como usar
-* 🔥 Método recomendado (.exe)
-
-Execute:
-```
-project.exe
-```
-
-👉 Clique com botão direito → Executar como administrador
-
 * 🧪 Método com Python
 
 Execute como administrador:
