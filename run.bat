@@ -1,14 +1,10 @@
 @echo off
 
-:: Verifica se é administrador
+:: Verifica se está como admin
 net session >nul 2>&1
 if %errorlevel% neq 0 (
-    echo.
-    echo ==============================
-    echo Me execute como administrador!
-    echo ==============================
-    echo.
-    pause
+    echo Executando como administrador...
+    powershell -Command "Start-Process cmd -ArgumentList '/c %~s0' -Verb runAs"
     exit
 )
 
